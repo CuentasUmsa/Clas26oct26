@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/images\ \(3\).jpg);
+}
+
+header{
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+
+    .exit{
+        img{
+            width: 100px;
+        }
+        
+    }
+
+    img{
+        width: 250px;
+    }
+}
+
+.conten{
+    background-color: rgb(190, 0, 190);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+
+    section{
+        background-color: rgb(224, 0, 224);
+        padding: 10px;
+        margin: 10px;
+        width: 50%;
+        height: 300px;
+
+        form{
+            label{
+                color: rgb(251, 218, 0);
+            }
+            input{
+                background-color: cyan;
+                width: 80%;
+                height: 40px;
+            }
+        }
+
+    }
+
+}
+
+footer{
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+*{
+    text-align: center;
+    margin: 5px;
+}
